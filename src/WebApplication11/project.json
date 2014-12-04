@@ -24,5 +24,9 @@
     "frameworks": {
         "aspnet50": { },
         "aspnetcore50": { }
+    },
+    "scripts": {
+        "postrestore": "npm install",
+        "prepare": "grunt bower:install"
     }
 }
